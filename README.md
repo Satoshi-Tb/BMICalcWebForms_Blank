@@ -5,7 +5,7 @@
 ##### 3.ソリューションエクスプローラーから、ルートの[ソリューション]を選択し、[NuGetパッケージの復元]を実施
 ##### 4.[パッケージマネージャーコンソール]以下のコマンドを実行
 ```
-PM> Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -reinstall
+Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -reinstall
 ```
 ##### 5.プロジェクトのプロパティを開き、[Web]の開始動作を[ページを指定する]を選択し、BMICalc.aspxファイルを指定する。
 ##### 6.[F5]ボタン押下
